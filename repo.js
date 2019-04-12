@@ -1,0 +1,89 @@
+{
+  "_id":"5cae0855645e4300011bc920",
+  "requestTypeCd":"Claims Department",
+  "businessUnitCd":8,
+  "businessLine":"Medicare",
+  "member":{
+    "firstName":"BETTY",
+    "middleName":"B",
+    "lastName":"SUE",
+    "umvMemberId":"5ade3e4498c3e2e19edbbeea",
+    "birthDt":"1963-11-20T00:00:00.000Z"
+  },
+  "method":"",
+  "requestDt":"2019-04-10T15:14:21.000Z",
+  "requestSource":"",
+  "levelOfUrgencyCd":"Z1 non HIPAA value",
+  "urgencyRequestedBy":"",
+  "diagnosisTypes":[],
+  "secondaryDiagnoses":[],
+  "servicingFacility":"",
+  "overallServiceType":"3",
+  "overallPlaceOfService":"",
+  "admission":{
+    "admissionSource":"",
+    "admissionType":"",
+    "source":"",
+    "type":""
+  },
+  "targetAdmitDt":"2019-04-11T05:00:00.000Z",
+  "targetDischargeDt":"2019-04-20T05:00:00.000Z",
+  "lineItems":[
+    {
+      "serviceTypeCd":"5",
+      "type":"Elective",
+      "requestDt":"2019-04-10T15:14:21.000Z",
+      "levelOfUrgencyCd":"Z1 non HIPAA value",
+      "urgencyRequestedBy":"Provider","serviceStartDt":null,
+      "serviceEndDt":null,
+      "placeOfService":"05",
+      "secondaryProcedures":[],
+      "requestedUnits":767,
+      "unitTypeCd":"MN",
+      "providerLocationId":"",
+      "outOfNetworkInd":false,
+      "outOfNetworkReason":"",
+      "authorizationBy":"",
+      "fromDt":"2019-04-09T05:00:00.000Z",
+      "toDt":"2019-04-26T05:00:00.000Z",
+      "stayLevel":"Intermediate/Step Down",
+      "primaryProcedure":{
+        "procedureCd":"58976",
+        "name":"GAMETE ZYGOTE/EMBRYO INTRAFLP TR ANY METH",
+        "type":"",
+        "isPrimaryProcedure":true
+      }
+    }
+  ],
+  "notes":[],
+  "createdBy":"CN180821",
+  "createdTs":"2019-04-10T15:14:29.097Z",
+  "updatedTs":"2019-04-10T15:15:20.858Z",
+  "dueDt":null,
+  "workListItemId":"",
+  "authNumber":"",
+  "servicingProvider":null,
+  "primaryDiagnoses":{ //CHANGE TO primaryDiagnoses
+    "diagnosisCd":"",
+    "name":"",
+    "type":""
+  },
+  "requestingProvider":{
+    "firstName":"DR. PETER PARKER",
+    "lastName":"DR. PETER PARKER",
+    "pdmId":"507f191e810c19729de860ea",
+    "providerId":"1234567890",
+    "taxId":"10-1000000",
+    "specialty":"",
+    "phone":"3145555555",
+    "fax":"3145556666",
+    "servicingFacility":{
+      "sameAsRequestingInd":false,
+      "facilityId":"",
+      "taxId":"",
+      "name":"",
+      "specialty":"",
+      "phone":"","locationId":""
+    }
+    }
+}
